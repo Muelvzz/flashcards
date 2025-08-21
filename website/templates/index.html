@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 id="title-page">Welcome to Flashcards</h1>
+    <div class="flashcard">
+        <div class="flashcard-text">
+            <h2 class="questions"></h2>
+        </div>
+    </div>
+    <div class="choices">
+        <button class="choice">Flip Card</button>
+        <button class="choice">Next Card</button>
+        <button class="choice" id="addCard">Add New Card</button>
+
+        <div class="modal" id="modal">
+            <div class="modal-inner">
+                <h2>Add Flashcard</h2>
+                <form method="post">
+                    <label for="flashcard-term"></label>
+                    <input type="text" name="flashcard-term" id="flashcard-term" placeholder="Enter Term..." required>
+                    <br>
+                    <label for="flashcard-definition"></label>
+                    <textarea name="flashcard-definition" id="flashcard-definition" rows="6"
+                    placeholder="Enter Definition..." required></textarea>
+                    <button type="submit">Add</button>
+                </form>
+                    <br>
+                    <button id="closeModal">Close</button>
+            </div>
+        </div>
+
+        <button class="choice-delete">Delete Card</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
