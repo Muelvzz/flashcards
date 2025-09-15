@@ -1,0 +1,30 @@
+header nav {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    display: flex;
+    gap: 2rem;
+}
+
+li img {
+    width: 1rem;
+    margin-right: 0.25rem;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

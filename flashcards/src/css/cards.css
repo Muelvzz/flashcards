@@ -1,0 +1,47 @@
+.card-container {
+    background-color: #4A5043;
+    border-radius: 0.5rem;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.card-container-label {
+    padding: 1.5rem 0rem 0rem 2rem;
+    text-align: left;
+    justify-self: left;
+    font-weight: bolder;
+}
+
+.card-container-flashcard {
+    padding: 2rem;
+    background-color: rgb(29, 27, 27);
+    margin: 1rem 2rem 2rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: 0.5rem solid;
+    border-color: #81857d;
+    height: 30vh;
+    width: 65%;
+}
+
+.card-container-button > button {
+    margin: auto 0.5rem 2rem 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: #4A5043;
+    border-radius: 0.25rem;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    width: 9rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.card-container-button > button:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
