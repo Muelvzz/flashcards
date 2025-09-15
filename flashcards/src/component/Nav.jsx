@@ -1,7 +1,4 @@
 import '../css/nav.css'
-import library from '/images/library.png'
-import community from '/images/community.png'
-import logo from '/images/logo.png'
 
 export default function Nav() {
     return (
@@ -12,17 +9,17 @@ export default function Nav() {
                         <ul>
                             <div className="left">
                                 <li>
-                                    <img src={logo} alt="Logo" />
+                                    <img src='/images/logo.png' alt="Logo" />
                                     Flashcards
                                 </li>
                             </div>
                             <div className="right">
                                 <li>
-                                    <img src={community} alt="Community Icon" />
+                                    <img src='/images/community.png' alt="Community Icon" />
                                     Community
                                 </li>
                                 <li>
-                                    <img src={library} alt="Library Icon" />
+                                    <img src='/images/library.png' alt="Library Icon" />
                                     My Library
                                 </li>                           
                             </div>

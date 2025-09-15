@@ -1,5 +1,4 @@
 import '../css/cards.css'
-import remove from '/images/delete.png'
 import Questions from './Questions.js'
 import React from 'react'
 
